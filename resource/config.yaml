@@ -1,0 +1,14 @@
+log:
+  logger-name: "daily_logger"
+  filename: "logs/daily.txt"
+  hour: 2
+  minute: 30
+
+server:
+  server-name: "tomato-store"
+  time-out: 30
+  cycle: 1500 # ms
+  host: "0.0.0.0"
+  port: 13899
+  auth: "114514"
+  resource-path: "public"
